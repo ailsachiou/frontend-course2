@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: hsl(148, 25%, 75%);
+}
+.wrap {
+  width: 1000px;
+  padding: 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introduction-block1 {
+  width: 65%;
+  height: 550px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 30px;
+}
+#name {
+  font-size: 42px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  text-shadow: 1px 2px 2px #646464;
+}
+#phone {
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: "Lato", sans-serif;
+  color: dimgrey;
+  display: flex;
+  justify-content: flex-end;
+}
+.subtitle {
+  font-size: 34px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(230, 230, 230);
+  margin: 15px 0;
+}
+.work-experience {
+  font-size: 20px;
+  margin: 0 30px;
+}
+.job-block {
+  margin: 15px;
+  padding: 8px;
+  font-size: 24px;
+  background-color: hsl(148, 25%, 75%);
+  box-shadow: 3px 3px 7px 0px rgb(130 130 130);
+}
+.company-name {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+.job-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.date-length {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+.date-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dot {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.date-line {
+  width: 2px;
+  height: 3vw;
+  background-color: grey;
+}
+.job-content {
+  width: 70%;
+  padding-left: 15px;
+}
+.job-position {
+  font-weight: bolder;
+}
+.job-detail {
+  font-size: 20px;
+}
+.introduction-block2 {
+  width: 25%;
+  height: 550px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#self-photo {
+  width: 200px;
+  height: 200px;
+  margin: 20%;
+  border-radius: 100px;
+}
+.location {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  margin-top: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  margin-top: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
