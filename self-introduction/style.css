@@ -2,20 +2,20 @@
   box-sizing: border-box;
 }
 html {
-  background-color: hsl(148, 25%, 75%);
+  background-color: #c4d5a8;
   font-family: "Lato", sans-serif;
 }
 .wrap {
-  width: 1000px;
-  padding: 50px 10px;
+  width: 100vw;
+  padding: 50px;
   display: flex;
   justify-content: center;
 }
 .introduction-block1 {
-  width: 65%;
+  width: 650px;
   background-color: white;
   border-radius: 15px;
-  padding: 30px;
+  padding: 20px;
 }
 #name {
   font-size: 42px;
@@ -29,6 +29,7 @@ html {
   margin: 25px 0 5px 0;
   display: flex;
   justify-content: flex-start;
+  text-shadow: 1px 1px 1px #646464;
 }
 .line {
   width: 100%;
@@ -41,9 +42,9 @@ html {
   margin: 0 30px;
 }
 .content-block {
-  padding: 8px;
+  padding: 15px;
   font-size: 24px;
-  background-color: hsl(148, 25%, 75%);
+  background-color: #d6ece1;
   box-shadow: 3px 3px 7px 0px rgb(130 130 130);
 }
 .company-name {
@@ -78,7 +79,7 @@ html {
   font-size: 20px;
 }
 .introduction-block2 {
-  width: 30%;
+  width: 300px;
   height: 400px;
   background-color: white;
   border-radius: 15px;
